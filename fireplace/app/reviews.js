@@ -31,7 +31,7 @@ export default function ReviewsBox() {
         <hr />
         <br />
         <p>
-          We've got thousands of happy customers all over the UK. Choose your
+          We have thousands of happy customers all over the UK. Choose your
           country to see the latest review:
         </p>
       </div>
