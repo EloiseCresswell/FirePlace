@@ -47,15 +47,17 @@ footer {
   position: absolute;
   right: 0;
   color: white;
+  border: 2px solid white;
 }
 
 .dropDownBox1 {
   margin-right: 15px;
+  color: white;
 }
 
 .links {
   text-decoration: none;
-  color: black;
+  color: white;
   line-height: 30px;
   padding: 10px;
   font-weight: 200;
