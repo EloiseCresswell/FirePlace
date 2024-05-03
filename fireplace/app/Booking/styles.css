@@ -1,0 +1,100 @@
+.bookingForm {
+  width: 330px;
+  margin: 15px 5px;
+}
+
+.bookingForm h3 {
+  margin-top: 15px;
+}
+
+.btn {
+  text-align: center;
+}
+
+.btn button {
+  background-color: #797c80;
+  border: 0px;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px 0px;
+  margin-bottom: 10px;
+}
+
+.btn button:hover {
+  background-color: white;
+  border: 2px solid #797c80;
+  color: #797c80;
+  margin-bottom: 8px;
+}
+
+.title {
+  background-color: #797c80;
+  padding: 20px 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+h2 {
+  font-weight: 200;
+}
+
+.fullForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.formSection {
+  background-color: lightgray;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+input {
+  display: block;
+  margin: 10px 0px;
+  padding: 5px;
+  width: 95%;
+  border-radius: 5px;
+  border: 0px;
+}
+.errorHandler {
+  color: red;
+  padding: 15px 0px;
+}
+
+.errorClass {
+  border: 1px solid red;
+}
+
+.star {
+  text-align: right;
+  color: red;
+  font-size: 12px;
+}
+
+.noStar {
+  display: none;
+}
+
+.invalid {
+  text-align: right;
+  color: red;
+  font-size: 12px;
+}
+
+.numberInvalid {
+  text-align: right;
+  color: red;
+  font-size: 12px;
+}
+
+.loadingComplete {
+  padding: 15px 0px;
+}
+
+@media screen and (min-width: 1024px) {
+  .bookingForm {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
