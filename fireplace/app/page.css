@@ -1,0 +1,129 @@
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+}
+
+.heroImg {
+  size: 336px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.heroTitle {
+  background-color: #797c80;
+  padding: 15px;
+}
+
+.title1 {
+  color: white;
+  font-weight: 200;
+  font-size: 35px;
+}
+
+.title2 {
+  color: white;
+  font-size: 15px;
+}
+
+.title3 {
+  color: white;
+  font-size: 15px;
+}
+
+.card-container {
+  width: 330px;
+  text-align: center;
+}
+
+.card-title {
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cardsimgs {
+  height: 100px;
+  width: 110px;
+}
+
+.card {
+  padding: 15px;
+}
+
+h4 {
+  padding: 10px;
+  font-weight: 800;
+}
+.fireplaceLogo {
+  padding: 0px;
+}
+
+.bookingBtn button {
+  background-color: white;
+  color: #797c80;
+  font-weight: 800;
+  border: 0px;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px 0px;
+  margin: 10px 0px;
+}
+
+.bookingBtn button:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: 1px solid black;
+  margin: 9px 0px;
+}
+
+@media screen and (min-width: 1024px) {
+  .heroSection {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+  }
+  .heroImg {
+    height: 350px;
+    width: 350px;
+  }
+  .titleSpace {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50px 300px 50px;
+    grid-template-rows: 50px 100px 50px;
+  }
+  .heroTitle {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+
+    background-color: #797c80;
+    padding: 15px;
+    height: 170px;
+    width: 300px;
+  }
+
+  .card-container {
+    width: 800px;
+
+    text-align: center;
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card {
+    margin: 15px;
+  }
+}
